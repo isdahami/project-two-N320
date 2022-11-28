@@ -1,0 +1,39 @@
+.imgSlide {
+  width: 25%;
+  height: 80%;
+  padding: 20px;
+  /* background-color: #000; */
+}
+
+.imgBox {
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  display: flex;
+  position: relative;
+}
+
+.imgBox .left {
+  width: 20px;
+  height: 100%;
+  background-color: rgb(0, 0, 0, 0.4);
+  display: grid;
+  place-items: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+.imgBox .right {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 20px;
+  background-color: rgb(0, 0, 0, 0.4);
+  display: grid;
+  place-items: center;
+  color: #fff;
+  cursor: pointer;
+}

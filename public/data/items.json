@@ -2,36 +2,36 @@
     {
         "id": 0,
         "title": "Another Round",
-        "director": "A",
-        "desc": "Dehydrated, through inattention",
-        "trailer": 0.5
+        "director": "",
+        "desc": "",
+        "trailer": ""
     },
     {
         "id": 1,
-        "title": "Jerky",
-        "director": "A",
-        "desc": "Dehydrated, through inattention",
-        "trailer": 0.5
+        "title": "Columbus",
+        "director": "",
+        "desc": "",
+        "trailer": ""
     },
     {
         "id": 2,
-        "title": "Jerky",
-        "director": "A",
-        "desc": "Dehydrated, through inattention",
-        "trailer": 0.5
+        "title": "Lady Bird",
+        "director": "",
+        "desc": "",
+        "trailer": ""
     },
     {
         "id": 3,
-        "title": "Jerky",
-        "director": "A",
-        "desc": "Dehydrated, through inattention",
-        "trailer": 0.5
+        "title": "Rushmore",
+        "director": "",
+        "desc": "",
+        "trailer": ""
     },
     {
         "id": 4,
-        "title": "Jerky",
-        "director": "A",
-        "desc": "Dehydrated, through inattention",
-        "trailer": 0.5
+        "title": "Scott Pilgrim vs. The World",
+        "director": "",
+        "desc": "",
+        "trailer": ""
     }
 ]

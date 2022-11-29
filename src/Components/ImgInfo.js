@@ -8,7 +8,7 @@ export default function ImgInfo() {
     <div className='btnDiv'>
         <Box sx={{ m: 2 }}>
         <Button 
-            style={{margin: '0 auto', display: "flex"}}  
+            style={{margin: '0 auto', display: "flex", fontFamily: "Comfortaa"}}  
             sx={{borderColor: 'white', color: 'white'}} 
             variant="outlined"
             >MORE INFO

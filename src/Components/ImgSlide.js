@@ -10,7 +10,7 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import Fade from "@mui/material/Fade";
 import { Modal } from "@mui/material";
 import Iframe from 'react-iframe';
-import { ListItem, List } from "@mui/material";
+
 
 
 
@@ -34,11 +34,6 @@ export default function ImgSlide() {
               // console.log(data);
           });
   }, []);
-
-//   const itemsList = items.map((item) => (
-//     <Watchlist key={item.id} item={item} addTitle={addTitle}  />
-// ));
-
 
   return (
     <div className="imgSlide-wrapper">
@@ -114,8 +109,9 @@ export default function ImgSlide() {
   }
 
   function addTitle(itemId) {
+    /* Adding the item to the watchlist. */
     setAddWatch([...addWatch, items[itemId]]);
-    console.log(addWatch);
+    // console.log(addWatch);
   }  
 }
 

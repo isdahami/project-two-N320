@@ -3,7 +3,8 @@ import { ListItem, List } from "@mui/material";
 
 export default function Watchlist(props) {
 
-    // loops through items that puts them into a list when clicked
+    
+    /* Mapping through the items array and returning a list item for each item in the array. */
     const itemsList = props.items.map((item) => (
         <ListItem >
             {item.title}
@@ -13,7 +14,12 @@ export default function Watchlist(props) {
 
     return (
         <div>
-            <List>{itemsList}</List>
+            <List 
+                sx={{ color: '#fff' }}
+                style={{ fontFamily: "Comfortaa" }}  
+            >
+                {itemsList}
+            </List>
         </div>
     )
 }

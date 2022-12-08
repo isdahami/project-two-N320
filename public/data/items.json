@@ -2,36 +2,36 @@
     {
         "id": 0,
         "title": "Another Round",
-        "director": "",
-        "desc": "",
-        "trailer": ""
+        "director": "Directed By: Thomas Vinterberg",
+        "desc": "Four high school teachers launch a drinking experiment: upholding a constant low level of intoxication.",
+        "trailer": "https://www.youtube.com/embed/40X5EX6Us7c"
     },
     {
         "id": 1,
         "title": "Columbus",
-        "director": "",
-        "desc": "",
-        "trailer": ""
+        "director": "Directed By: Kogonada",
+        "desc": "When a renowned architecture scholar falls suddenly ill during a speaking tour, his son Jin finds himself stranded in Columbus, Indiana - a small Midwestern city celebrated for its many significant modernist buildings. Jin strikes up a friendship with Casey, a young architecture enthusiast who works at the local library",
+        "trailer": "https://www.youtube.com/embed/mOPsrKZyskg?rel=0&wmode=transparent"
     },
     {
         "id": 2,
         "title": "Lady Bird",
-        "director": "",
-        "desc": "",
-        "trailer": ""
+        "director": "Directed By: Greta Gerwig",
+        "desc": "A California high school student plans to escape from her family and small town by going to college in New York, much to the disapproval of wildly loving, deeply opinionated and strong-willed mother.",
+        "trailer": "https://www.youtube.com/embed/cNi_HC839Wo?rel=0&wmode=transparent"
     },
     {
         "id": 3,
         "title": "Rushmore",
-        "director": "",
-        "desc": "",
-        "trailer": ""
+        "director": "Directed By: Wes Anderson",
+        "desc": "When a beautiful first-grade teacher arrives at a prep school, she soon attracts the attention of an ambitious teenager named Max, who quickly falls in love with her. Max turns to the father of two of his schoolmates for advice on how to woo the teacher. However, the situation soon gets complicated when Maxs new friend becomes involved with her, setting the two pals against one another in a war for her attention.",
+        "trailer": "https://www.youtube.com/embed/846UzdeHI1g?rel=0&wmode=transparent"
     },
     {
         "id": 4,
         "title": "Scott Pilgrim vs. The World",
-        "director": "",
-        "desc": "",
-        "trailer": ""
+        "director": "Directed By: Edgar Wright",
+        "desc": "Scott Pilgrim is a 22 year old radical Canadian wannabe rockstar who falls in love with an American delivery girl, Ramona Flowers, and must defeat her seven evil exes to be able to date her.",
+        "trailer": "https://www.youtube.com/embed/egkIeDQiUrc?rel=0&wmode=transparent"
     }
 ]

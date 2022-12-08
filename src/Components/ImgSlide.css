@@ -1,8 +1,57 @@
+.imgSlide-wrapper {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 .imgSlide {
   width: 25%;
-  height: 80%;
+  height: 90%;
   padding: 20px;
+  position: relative;
   /* background-color: #000; */
+}
+
+.watchlist {
+  position: absolute;
+  top: 150px;
+  right: 0;
+  width: 200px;
+  height: 400px;
+  background: #536976; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #292e49,
+    #536976
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #292e49,
+    #536976
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  border-radius: 10px 0 0 10px;
+}
+
+.watchlist h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  padding-top: 5px;
+  font-family: "Comfortaa", cursive;
+  color: #fff;
+}
+
+.imgBox-wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .imgBox {
@@ -14,6 +63,8 @@
   object-fit: cover;
   display: flex;
   position: relative;
+  opacity: 1;
+  transition: 0.5s ease-out;
 }
 
 .imgBox .left {
@@ -36,4 +87,40 @@
   place-items: center;
   color: #fff;
   cursor: pointer;
+}
+
+#infoBox {
+  width: 60%;
+  height: 75%;
+  margin: 5% auto;
+  background: #ada996; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #eaeaea,
+    #dbdbdb,
+    #f2f2f2,
+    #ada996
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #eaeaea,
+    #dbdbdb,
+    #f2f2f2,
+    #ada996
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: "Comfortaa", cursive;
+  border-radius: 6px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btns {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }

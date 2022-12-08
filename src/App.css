@@ -26,18 +26,20 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
+  margin: 0 auto;
   background: #0f0c29; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #24243e,
-    #302b63,
-    #0f0c29
+    #0f0c30,
+    #302b50,
+    #0f0c30
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #24243e,
-    #302b63,
-    #0f0c29
+    #0f0c30,
+    #302b50,
+    #0f0c30
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -46,4 +48,5 @@ span {
   font-family: "Comfortaa", cursive;
   color: #fff;
   user-select: none;
+  margin-top: 20px;
 }

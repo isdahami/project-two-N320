@@ -35,6 +35,10 @@ export default function ImgSlide() {
           });
   }, []);
 
+//   const itemsList = items.map((item) => (
+//     <Watchlist key={item.id} item={item} addTitle={addTitle}  />
+// ));
+
 
   return (
     <div className="imgSlide-wrapper">
@@ -95,9 +99,8 @@ export default function ImgSlide() {
         
     </div>
     <div className="watchlist">
-          <Watchlist items={AddWatch}/>
-          <h3 className="watchTxt">Watchlist:</h3>
-          {/* <List>{itemsList}</List> */}
+        <h3 className="watchTxt">Watchlist:</h3>
+          <Watchlist items={addWatch} />
         </div>
     </div>
   )
